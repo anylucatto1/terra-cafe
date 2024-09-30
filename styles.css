@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    background-color: #f4f4f4; /* Fundo claro */
+    color: #572103; /* Texto escuro */
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+header, section, footer {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    background-color: #f4f4f4;
+}
+
+.logo img {
+    max-width: 500px; /* Aumentado para maior visibilidade */
+    height: auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #572103;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section {
+    background-color: #572103; /* Fundo claro padrão para Caramelo Brasil */
+    color: #fafafa; /* Texto escuro padrão */
+    padding: 40px 0; /* Espaçamento */
+}
+
+.raizes {
+    background-color: #f4f4f4; /* Fundo escuro para Raízes do Brasil */
+    color: #572103; /* Texto claro para Raízes do Brasil */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.product {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.product img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    color: #572103;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.buy-button {
+    background-color: #572103; /* Cor padrão do botão */
+    color: #f4f4f4; /* Cor do texto */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.buy-button:hover {
+    background-color: #7a4a30; /* Cor ao passar o mouse */
+}
+
+.buy-button-caramelo {
+    background-color: #f4f4f4; /* Fundo claro para Caramelo Brasil */
+    color: #572103; /* Texto escuro */
+}
+
+.buy-button-caramelo:hover {
+    background-color: #dcdcdc; /* Cor ao passar o mouse */
+}
+
+.divider {
+    width: 100%;
+    border: none;
+    border-top: 2px solid #572103; /* Cor da linha */
+    margin: 20px 0; /* Espaçamento acima e abaixo */
+}
+
